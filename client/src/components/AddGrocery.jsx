@@ -3,6 +3,7 @@ import React from 'react';
 class AddGrocery extends React.Component {
   constructor(props) {
     super(props);
+    console.log(props);
     this.state = { 
     }
   }
@@ -12,5 +13,9 @@ class AddGrocery extends React.Component {
   }
 }
 
+AddGrocery.propTypes = {
+};
+
 export default AddGrocery;
 
+window.AddGrocery = AddGrocery;
